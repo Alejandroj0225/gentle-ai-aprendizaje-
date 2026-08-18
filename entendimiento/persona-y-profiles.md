@@ -105,8 +105,48 @@ Optimizar costos y calidad:
 └── powerful.json
 ```
 
-### ¿Cómo se activan?
-Con **Tab** dentro de OpenCode → selecciona el perfil deseado.
+### ¿Cómo se activan? (Multi-mode con Tab)
+
+Con **Tab** dentro de OpenCode cambias entre orquestadores de perfiles.
+
+```
+gentle-orchestrator        ← El default (si no creas perfiles, solo ves este)
+sdd-orchestrator-cheap     ← Perfil "cheap" (modelos baratos)
+sdd-orchestrator-premium   ← Perfil "premium" (modelos potentes)
+```
+
+#### ⚠️ Aclaración importante sobre Tab
+
+**Tab NO cambia de agente arbitrariamente** — cambia entre **orquestadores de perfiles**, que son configuraciones de MODELOS para las fases SDD.
+
+| Concepto | Realidad |
+|----------|----------|
+| Tab cambia de agente cualquiera | ❌ No — solo cambia entre orquestadores de perfiles |
+| Cada perfil = configuración de modelos | ✅ Sí — qué modelo usa cada fase SDD |
+| Crear un perfil genera un nuevo orquestador | ✅ Sí — `sdd-orchestrator-{nombre}` |
+| Si no creo perfiles, ¿hay Tab? | ❌ No — solo tienes `gentle-orchestrator`, no hay nada que cambiar |
+
+#### ¿Por qué tú (actualmente) no tienes Tab?
+
+Porque **no creaste perfiles**. Tab solo aparece cuando existen 2+ orquestadores (el default + al menos un perfil). Tener solo `gentle-orchestrator` significa que no hay perfiles configurados.
+
+#### Ejemplo de creación de perfil
+
+```bash
+gentle-ai sync --profile cheap:openrouter/qwen/qwen3-30b-a3b:free
+gentle-ai sync --profile-phase cheap:sdd-design:anthropic/claude-sonnet-4-20250514
+```
+
+Esto crea `sdd-orchestrator-cheap` → ahora con Tab puedes alternar entre `gentle-orchestrator` y `sdd-orchestrator-cheap`.
+
+#### Multi-mode solo en ciertos agentes
+
+| ¿Soporta multi-mode (Tab)? | Agentes |
+|:---:|---|
+| ✅ Sí | **OpenCode**, **Kilo Code**, **Kiro IDE**, **Pi** |
+| ❌ No (single-mode) | Claude Code, Cursor, Gemini CLI, Codex, Windsurf, etc. |
+
+El resto de agentes corren **single-mode** — el orquestador usa el modelo activo para todas las fases.
 
 ---
 
@@ -138,4 +178,5 @@ Con **Tab** dentro de OpenCode → selecciona el perfil deseado.
 
 - [[skills]] — Sistema de skills
 - [[sdd]] — Spec-Driven Development
-- [[agentes-opencode]] — Agentes en OpenCode
+- [[subagentes-custom]] — Sub-agentes en OpenCode
+- [[agentes-soportados]] — Agentes soportados y multi-mode

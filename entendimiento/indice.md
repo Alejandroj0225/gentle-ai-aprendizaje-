@@ -52,9 +52,6 @@
 - OpenSpec — Sistema de archivos para SDD, estructura de directorios y flujos típicos.
   → Nota: [[openspec]]
 
-- Estructura del Proyecto — Organización del código fuente y directorios principales.
-  → Nota: [[estructura-proyecto]]
-
 - Comandos CLI — Guía de los comandos disponibles en gentle-ai (install, doctor, sync, etc.).
   → Nota: [[cli-commands]]
 
@@ -70,6 +67,9 @@
 
 - Global vs Local — Cuándo instalar gentle-ai globalmente vs por proyecto.
   → Nota: [[instalacion-global-vs-local]]
+
+- Ejecutar Gentle-AI — TUI vs CLI, scope (global/local) y binario.
+  → Nota: [[ejecutar-gentle-ai]]
 
 - Flujo de Trabajo Diario — Cómo trabajar día a día con Gentle-AI configurado.
   → Nota: [[flujo-trabajo]]
