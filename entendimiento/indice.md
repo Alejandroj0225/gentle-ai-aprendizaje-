@@ -10,7 +10,7 @@
   → Nota: [[01-arquitectura-general]]
 
 - Organic Routing — Cómo Gentle-AI decide automáticamente entre implementación directa, delegated, o SDD.
-  → Nota: (por crear)
+  → Nota: [[organic-routing]]
 
 - Receipt-Driven Development (RDD) — Sistema de revisión bounded con receipts que validan los delivery gates.
   → Nota: (por crear)
@@ -26,6 +26,9 @@
 
 - Commands vs Skills — Cómo Commands y Skills trabajan juntos en los flujos de SDD.
   → Nota: [[commands-vs-skills]]
+
+- Tests, TDD y SDD — Cómo los tests se generan en apply y se validan en verify.
+  → Nota: [[tests-tdd-sdd]]
 
 - Plugins — Extensiones TypeScript que añaden funcionalidad extra a OpenCode.
   → Nota: [[plugins]]
