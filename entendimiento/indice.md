@@ -24,9 +24,6 @@
 - Skills System — Archivos SKILL.md que codifican mejores prácticas y patrones de desarrollo.
   → Nota: [[skills]]
 
-- Skill Registry — Cómo el registry detecta skills, ubicaciones válidas y cómo crear nuevas skills.
-  → Nota: [[skills]]
-
 ---
 
 ## Componentes del Sistema
@@ -35,7 +32,7 @@
   → Nota: (por crear)
 
 - Agentes en OpenCode — Cómo funciona el sistema de AGENTS.md y opencode.json en OpenCode.
-  → Nota: [(por crear)
+  → Nota: [[agentes-opencode]]
 
 - AGENTS.md Anidados — Gentle-AI no soporta agents.md anidados en subdirectorios.
   → Nota: [[agents-md-anidados]]
