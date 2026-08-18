@@ -30,6 +30,9 @@
 - Tests, TDD y SDD — Cómo los tests se generan en apply y se validan en verify.
   → Nota: [[tests-tdd-sdd]]
 
+- sdd-init — Inicialización del contexto SDD: detecta stack, testing, skills y convenciones.
+  → Nota: [[sdd-init]]
+
 - Plugins — Extensiones TypeScript que añaden funcionalidad extra a OpenCode.
   → Nota: [[plugins]]
 
