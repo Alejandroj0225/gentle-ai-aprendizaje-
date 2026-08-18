@@ -1,0 +1,11 @@
+# Obsidian Vault metadata (local to each machine)
+.obsidian/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
