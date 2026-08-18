@@ -9,7 +9,7 @@
 - Visión General y Arquitectura — Resumen de la arquitectura de alto nivel de Gentle-AI y sus componentes principales.
   → Nota: [[01-arquitectura-general]]
 
-- Organic Routing — Cómo Gentle-AI decide automáticamente entre implementación directa, delegada, o SDD.
+- Organic Routing — Cómo Gentle-AI decide automáticamente entre implementación directa, delegated, o SDD.
   → Nota: (por crear)
 
 - Receipt-Driven Development (RDD) — Sistema de revisión bounded con receipts que validan los delivery gates.
@@ -30,9 +30,6 @@
 
 - Agentes Soportados — Lista de agentes de codificación AI que Gentle-AI puede configurar.
   → Nota: (por crear)
-
-- Agentes en OpenCode — Cómo funciona el sistema de AGENTS.md y opencode.json en OpenCode.
-  → Nota: [[agentes-opencode]]
 
 - AGENTS.md Anidados — Gentle-AI no soporta agents.md anidados en subdirectorios.
   → Nota: [[agents-md-anidados]]
@@ -59,20 +56,16 @@
 - Configuración de Fork — Cómo mantener sincronizado tu fork con el repositorio upstream.
   → Nota: (por crear)
 
-- Gobernanza y Reglas — Reglas establecidas para el workflow de aprendizaje.
-  → Nota: (por crear)
-
 ---
 
 ## Próximos Temas por Explorar
 
-- [ ] Profundizar en `internal/cli/` — comandos
+- [ ] Profundizar en Organic Routing
 - [ ] Detallar las 9 fases de SDD
 - [ ] Entender el Skill Registry
 - [ ] Revisión detallada de RDD (receipts, lenses, corrección bounded)
 - [ ] Agentes adapters — cómo se configura cada agente
 - [ ] MCP servers — configuración de Context7, Notion, Jira
-- [ ] Profundizar en Engram — funcionalidades completas
 
 ---
 

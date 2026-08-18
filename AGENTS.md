@@ -11,6 +11,8 @@
 - **Solo crear wikilinks** si la nota destino ya existe
 - **No crear wikilinks** a notas que aún no se han creado
 - **Antes de crear un wikilink**, verificar que el archivo `.md` existe
+- **Antes de MODIFICAR el índice de cualquier forma**, usar `glob` para verificar que TODOS los wikilinks que estoy agregando apuntan a archivos que EXISTEN en el filesystem
+- **NUNCA reescribir todo el índice** — solo hacer ediciones targeted con `edit`
 
 ### Creación de Notas
 
