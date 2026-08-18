@@ -24,6 +24,12 @@
 - Skills System — Archivos SKILL.md que codifican mejores prácticas y patrones de desarrollo.
   → Nota: [[skills]]
 
+- Commands vs Skills — Cómo Commands y Skills trabajan juntos en los flujos de SDD.
+  → Nota: [[commands-vs-skills]]
+
+- Plugins — Extensiones TypeScript que añaden funcionalidad extra a OpenCode.
+  → Nota: [[plugins]]
+
 ---
 
 ## Componentes del Sistema
@@ -49,6 +55,15 @@
 ---
 
 ## Guías de Uso
+
+- Persona y Profiles — Diferencia entre la personalidad del agente y la configuración de modelos IA.
+  → Nota: [[persona-y-profiles]]
+
+- Sub-Agentes Custom — Cómo integrar mis sub-agentes de .opencode/agents con Gentle Orchestrator.
+  → Nota: [[subagentes-custom]]
+
+- Global vs Local — Cuándo instalar gentle-ai globalmente vs por proyecto.
+  → Nota: [[instalacion-global-vs-local]]
 
 - Flujo de Trabajo Diario — Cómo trabajar día a día con Gentle-AI configurado.
   → Nota: (por crear)
