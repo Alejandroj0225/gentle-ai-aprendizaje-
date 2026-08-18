@@ -13,10 +13,10 @@
   → Nota: [[organic-routing]]
 
 - Receipt-Driven Development (RDD) — Sistema de revisión bounded con receipts que validan los delivery gates.
-  → Nota: (por crear)
+  → Nota: [[rdd]]
 
 - Spec-Driven Development (SDD) — Workflow de 9 fases para planificar y ejecutar cambios sustanciales.
-  → Nota: (por crear)
+  → Nota: [[sdd]]
 
 - Engram - Memoria Persistente — Sistema de memoria que permite al agente recordar decisiones entre sesiones.
   → Nota: [[engram]]
@@ -41,7 +41,7 @@
 ## Componentes del Sistema
 
 - Agentes Soportados — Lista de agentes de codificación AI que Gentle-AI puede configurar.
-  → Nota: (por crear)
+  → Nota: [[agentes-soportados]]
 
 - AGENTS.md Anidados — Gentle-AI no soporta agents.md anidados en subdirectorios.
   → Nota: [[agents-md-anidados]]
@@ -53,10 +53,10 @@
   → Nota: [[openspec]]
 
 - Estructura del Proyecto — Organización del código fuente y directorios principales.
-  → Nota: (por crear)
+  → Nota: [[estructura-proyecto]]
 
 - Comandos CLI — Guía de los comandos disponibles en gentle-ai (install, doctor, sync, etc.).
-  → Nota: (por crear)
+  → Nota: [[cli-commands]]
 
 ---
 
@@ -72,17 +72,13 @@
   → Nota: [[instalacion-global-vs-local]]
 
 - Flujo de Trabajo Diario — Cómo trabajar día a día con Gentle-AI configurado.
-  → Nota: (por crear)
-
+  → Nota: [[flujo-trabajo]]
 
 ---
 
 ## Próximos Temas por Explorar
 
-- [ ] Profundizar en Organic Routing
-- [ ] Detallar las 9 fases de SDD
-- [ ] Entender el Skill Registry
-- [ ] Revisión detallada de RDD (receipts, lenses, corrección bounded)
+- [ ] Entender el Skill Registry en detalle
 - [ ] Agentes adapters — cómo se configura cada agente
 - [ ] MCP servers — configuración de Context7, Notion, Jira
 
