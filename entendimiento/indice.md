@@ -34,6 +34,9 @@ Lista de agentes de codificación AI que Gentle-AI puede configurar.
 ## [[agentes-opencode|Agentes en OpenCode]]
 Cómo funciona el sistema de AGENTS.md y opencode.json en OpenCode.
 
+## [[agents-md-anidados|AGENTS.md Anidados]]
+Gentle-AI no soporta agents.md anidados en subdirectorios - es una característica de Cursor/Claude Code, no de OpenCode.
+
 ## [[estructura-proyecto|Estructura del Proyecto]]
 Organización del código fuente y directorios principales.
 
