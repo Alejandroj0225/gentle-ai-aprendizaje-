@@ -1,28 +1,81 @@
-# Gentle AI — Agent Skills Index
+# AGENTS.md — Proyecto de Aprendizaje Gentle-AI
 
-When working on this project, load the relevant skill(s) BEFORE writing any code.
+> Este archivo define las convenciones y reglas para el trabajo de aprendizaje sobre Gentle-AI.
 
-Naming convention: `gentle-ai-*` skills are repo-specific workflow skills. Unprefixed skills are portable writing or work-unit skills and intentionally keep their canonical names.
+---
 
-## How to Use
+## Reglas de Documentación
 
-1. Check the trigger column to find skills that match your current task
-2. Load the skill by reading the SKILL.md file at the listed path
-3. Follow ALL patterns and rules from the loaded skill
-4. Multiple skills can apply simultaneously
+### Wikilinks
 
-## Skills
+- **Solo crear wikilinks** si la nota destino ya existe
+- **No crear wikilinks** a notas que aún no se han creado
+- **Antes de crear un wikilink**, verificar que el archivo `.md` existe
 
-| Skill | Trigger | Path |
-|-------|---------|------|
-| `issue-creation` | When creating a GitHub issue, reporting a bug, or requesting a feature. | [`internal/assets/skills/issue-creation/SKILL.md`](internal/assets/skills/issue-creation/SKILL.md) |
-| `gentle-ai-branch-pr` | When creating a pull request, opening a PR, or preparing changes for review. | [`skills/branch-pr/SKILL.md`](skills/branch-pr/SKILL.md) |
-| `gentle-ai-chained-pr` | When a change is too large for one review, or when creating chained/stacked pull requests. | [`skills/chained-pr/SKILL.md`](skills/chained-pr/SKILL.md) |
-| `cognitive-doc-design` | When writing docs that must reduce cognitive load for readers or reviewers. | [`skills/cognitive-doc-design/SKILL.md`](skills/cognitive-doc-design/SKILL.md) |
-| `comment-writer` | When drafting human comments, PR feedback, issue replies, or async updates. | [`skills/comment-writer/SKILL.md`](skills/comment-writer/SKILL.md) |
-| `work-unit-commits` | When splitting implementation work into deliverable commits or chained PRs. | [`skills/work-unit-commits/SKILL.md`](skills/work-unit-commits/SKILL.md) |
-| `rdd-defect-workflow` | When RDD defects involve receipts, authority, recovery, delivery gates, or kill switches. | [`skills/rdd-defect-workflow/SKILL.md`](skills/rdd-defect-workflow/SKILL.md) |
-| `rdd-advisory-transport` | When changing reviewer transport, adapters, lens prompts/schemas, or transport capability policy. | [`skills/rdd-advisory-transport/SKILL.md`](skills/rdd-advisory-transport/SKILL.md) |
-| `issue-root-resolution` | When auditing backlog roots, proposing cluster fixes, or closing resolved/outdated issues. | [`skills/issue-root-resolution/SKILL.md`](skills/issue-root-resolution/SKILL.md) |
-| `systemic-issue-triage` | When triaging issues, bugs, backlogs, root causes, dead ends, or blocked users. | [`skills/systemic-issue-triage/SKILL.md`](skills/systemic-issue-triage/SKILL.md) |
-| `gentle-ai-bench` | When touching `bench/`, journeys, driven mode, the journey corpus, or bench axes. | [`skills/gentle-ai-bench/SKILL.md`](skills/gentle-ai-bench/SKILL.md) |
+### Creación de Notas
+
+#### Escenario 1: Nuevo tema
+
+Cuando se resuelve una duda sobre un tema que **NO tiene precedente** en la documentación:
+
+1. Crear la nota atómica con el contenido
+2. Buscar la sección correspondiente en el índice
+3. Agregar como **bullet de nivel más alto** (sin anidamiento)
+
+#### Escenario 2: Profundización de tema existente
+
+Cuando se resuelve una duda sobre un tema que **YA tiene estructura definida**:
+
+1. Identificar la nota o sección relacionada existente
+2. Crear la nueva nota como extensión/anidamiento de la existente
+3. Agregar como sub-item dentro de la estructura del tema padre
+
+### Siempre preguntar
+
+Antes de crear cualquier nota, **preguntar siempre**:
+
+> "¿Quieres que cree una nota con esta información?"
+
+El usuario decide si crear o no la nota.
+
+---
+
+## Reglas de Workflow
+
+### Git
+
+- **No hacer push automático** a Git
+- El usuario controla el push desde VS Code Source Control
+- Hacer `git add` y `git commit` según necesidad, pero **no hacer push**
+
+### Memoria (Engram)
+
+- Guardar decisiones importantes con `mem_save`
+- Usar topic_keys estables para temas que evolucionan
+- Al final de sesión, hacer `mem_session_summary`
+
+---
+
+## Convenciones de Nombre
+
+- Notas atómicas: nombre descriptivo en español, guiones en lugar de espacios
+- Ejemplo: `governanza-reglas.md`, `agents-md-anidados.md`
+- Índice: `indice.md`
+
+---
+
+## Estructura del Proyecto
+
+```
+entendimiento/
+├── indice.md              ← Punto de entrada
+├── 01-arquitectura-general.md
+├── agentes-opencode.md
+├── agents-md-anidados.md
+├── gobernanza-reglas.md
+└── [notas futuras...]
+```
+
+---
+
+*Última actualización: 2026-08-17*
