@@ -74,8 +74,6 @@
 - Flujo de Trabajo Diario — Cómo trabajar día a día con Gentle-AI configurado.
   → Nota: (por crear)
 
-- Configuración de Fork — Cómo mantener sincronizado tu fork con el repositorio upstream.
-  → Nota: (por crear)
 
 ---
 
