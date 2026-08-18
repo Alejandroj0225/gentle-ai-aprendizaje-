@@ -19,10 +19,13 @@
   → Nota: (por crear)
 
 - Engram - Memoria Persistente — Sistema de memoria que permite al agente recordar decisiones entre sesiones.
-  → Nota: (por crear)
+  → Nota: [[engram]]
 
 - Skills System — Archivos SKILL.md que codifican mejores prácticas y patrones de desarrollo.
-  → Nota: (por crear)
+  → Nota: [[skills]]
+
+- Skill Registry — Cómo el registry detecta skills, ubicaciones válidas y cómo crear nuevas skills.
+  → Nota: [[skills]]
 
 ---
 
@@ -32,10 +35,16 @@
   → Nota: (por crear)
 
 - Agentes en OpenCode — Cómo funciona el sistema de AGENTS.md y opencode.json en OpenCode.
-  → Nota: (por crear)
+  → Nota: [(por crear)
 
 - AGENTS.md Anidados — Gentle-AI no soporta agents.md anidados en subdirectorios.
   → Nota: [[agents-md-anidados]]
+
+- AGENTS.md Config vs Raíz — Diferencia entre el AGENTS.md en .config/opencode/ y el de la raíz del proyecto.
+  → Nota: [[agents-md-config-vs-raiz]]
+
+- OpenSpec — Sistema de archivos para SDD, estructura de directorios y flujos típicos.
+  → Nota: [[openspec]]
 
 - Estructura del Proyecto — Organización del código fuente y directorios principales.
   → Nota: (por crear)
