@@ -84,6 +84,9 @@
 
 ## Proyecto: Plugin de Obsidian
 
+- Ciclo de Vida de un Proyecto — Proceso desde el momento cero (constitución) hasta mantenimiento/expansión, con checklist para verificar el comportamiento del orquestador.
+  → Nota: [[ciclo-vida-proyecto]]
+
 - Análisis EMAI Command Center — Ingeniería inversa del plugin de referencia para el primer proyecto (bóveda, módulos, configuración, loop).
   → Nota: [[plugin-emai-command-center]]
 
