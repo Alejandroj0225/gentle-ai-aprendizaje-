@@ -82,6 +82,16 @@
 
 ---
 
+## Proyecto: Plugin de Obsidian
+
+- Análisis EMAI Command Center — Ingeniería inversa del plugin de referencia para el primer proyecto (bóveda, módulos, configuración, loop).
+  → Nota: [[plugin-emai-command-center]]
+
+- Pipeline de Aprendizajes — Sistema de flashcards de la bóveda personal (Anki) y diseño del puente skill → bóveda para exportar aprendizajes desde proyectos.
+  → Nota: [[pipeline-aprendizajes-flashcards]]
+
+---
+
 ## Próximos Temas por Explorar
 
 - [ ] Entender el Skill Registry en detalle
@@ -90,4 +100,4 @@
 
 ---
 
-*Última actualización: 2026-08-17*
+*Última actualización: 2026-08-19*
