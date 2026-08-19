@@ -74,6 +74,12 @@
 - Flujo de Trabajo Diario — Cómo trabajar día a día con Gentle-AI configurado.
   → Nota: [[flujo-trabajo]]
 
+- Análisis Integración Bóveda — Evaluación de integrar gentle-ai en la bóveda de Obsidian.
+  → Nota: [[analisis-integracion-boveda]]
+
+- Plan Migración Bóveda — Plan detallado para migrar al gentle-orchestrator en la bóveda.
+  → Nota: [[plan-migracion-boveda]]
+
 ---
 
 ## Próximos Temas por Explorar
