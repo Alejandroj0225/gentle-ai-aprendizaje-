@@ -67,6 +67,8 @@
 
 - Global vs Local — Cuándo instalar gentle-ai globalmente vs por proyecto.
   → Nota: [[instalacion-global-vs-local]]
+  - Resolución de config en OpenCode — Qué rutas lee OpenCode (opencode.json, .opencode/, NO .config/opencode/) y cómo ocultar un agente global con disable:true.
+    → Nota: [[opencode-resolucion-config]]
 
 - Ejecutar Gentle-AI — TUI vs CLI, scope (global/local) y binario.
   → Nota: [[ejecutar-gentle-ai]]
